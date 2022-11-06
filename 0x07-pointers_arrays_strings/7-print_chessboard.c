@@ -1,18 +1,17 @@
 #include "nain.h"
 
 /**
- * print_chessboard - Entry point
- * @a: array
- * Return: Always 0 (Success)
+ * print_chessboard -prints the chessboard
+ * @a: pointer to chessboard
  */
 void print_chessboard(char (*a)[8])
 {
 	int i, n;
 
-	for (i = 0; i < 8; i++)
+	for (n = 0; n < 8; n++)
 	{
-		for (n = 0; n < 8; n++)
-			_putchar(a[i][n]);
+		for (i = 0; i < 8; i++)
+			_putchar(a[n][i]);
 		_putchar('\n');
 	}
 }
