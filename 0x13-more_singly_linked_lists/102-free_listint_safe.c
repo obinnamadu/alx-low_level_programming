@@ -1,3 +1,8 @@
+/*
+ * File: 102-free_listint_safe.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "lists.h"
 
 size_t looped_listint_count(listint_t *head);
